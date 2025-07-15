@@ -2,9 +2,6 @@
 import { BookAIcon, GraduationCap, LayoutDashboard, UserPenIcon, Users } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
-import { FaMoneyBill } from 'react-icons/fa';
-import { MdPayments } from 'react-icons/md';
-import { PiContactlessPaymentFill } from 'react-icons/pi';
 
 const Sidebar = ({ closeSidebar }: { closeSidebar: () => void }) => {
   const lists = [
@@ -12,9 +9,6 @@ const Sidebar = ({ closeSidebar }: { closeSidebar: () => void }) => {
     { id: 2, name: "Profile", path: "/employee/employeeprofile", icon: UserPenIcon },
     { id: 3, name: "Leave summary", path: "/employee/reqleave", icon: GraduationCap },
     { id: 4, name: "Announcemebt", path: "/employee/announcemebt", icon: BookAIcon },
-    // { id: 5, name: "Leave", path: "/admin/leave", icon: Users },
-    // { id: 6, name: "payroll", path: "/admin/payroll", icon: MdPayments },
-    // { id: 7, name: "Admins", path: "/admin/manageAdmins", icon: BookAIcon },
   ];
 
   return (
