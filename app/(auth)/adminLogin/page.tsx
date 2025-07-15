@@ -123,9 +123,9 @@ const LoginPage = () => {
 
         <p className="mt-4 text-center text-gray-600 text-sm">
           Don’t have an account?{' '}
-          <Link href="/signup" className="text-green-500 hover:underline font-semibold">
+          {/* <Link href="/" className="text-green-500 hover:underline font-semibold">
             Sign up
-          </Link>
+          </Link> */}
         </p>
       </form>
     </div>
