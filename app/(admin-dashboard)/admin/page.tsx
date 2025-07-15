@@ -116,7 +116,7 @@ useEffect(() => {
 };
 
 const Card = ({ title, value, borderColor }: { title: string; value: number; borderColor: string }) => (
-  <div className={`bg-white rounded-xl shadow p-5 border-l-4 border-${borderColor}-500`}>
+  <div className={`bg-white rounded-xl shadow p-5 border-l-4 border-${borderColor}-500 || || 'border-gray-300'`}>
     <h2 className="text-sm text-gray-500">{title}</h2>
     <p className="text-3xl font-bold text-gray-800">{value}</p>
   </div>

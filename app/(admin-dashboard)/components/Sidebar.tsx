@@ -2,9 +2,6 @@
 import { BookAIcon, GraduationCap, LayoutDashboard, UserPenIcon, Users } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
-import { FaMoneyBill } from 'react-icons/fa';
-import { MdPayments } from 'react-icons/md';
-import { PiContactlessPaymentFill } from 'react-icons/pi';
 
 const Sidebar = ({ closeSidebar }: { closeSidebar: () => void }) => {
   const lists = [
