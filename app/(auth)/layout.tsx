@@ -7,7 +7,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
       {/* Left side - Image with dark overlay */}
       <div className="relative w-1/2 hidden lg:block">
         <img
-          src="/images/log1.jpg"
+          src="/images/hr.jpg"
           alt="Login background"
           className="w-full h-full object-cover"
         />

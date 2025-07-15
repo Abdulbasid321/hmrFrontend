@@ -28,7 +28,7 @@ const Hero = () => {
       {/* Image Section */}
       <div className="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
         <Image
-          src="/images/log1.jpg"
+          src="/images/hr2.jpg"
           alt="Hero Image"
           width={500}
           height={400}
