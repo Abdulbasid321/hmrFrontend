@@ -1,5 +1,5 @@
 
-import { BookAIcon, GraduationCap, LayoutDashboard, UserPenIcon, Users } from 'lucide-react';
+import { Bell, BookAIcon, DollarSign, GraduationCap, LayoutDashboard, UserPenIcon, Users } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 
@@ -10,8 +10,10 @@ const Sidebar = ({ closeSidebar }: { closeSidebar: () => void }) => {
     { id: 3, name: "employee", path: "/admin/employ", icon: GraduationCap },
     { id: 4, name: "Department", path: "/admin/department", icon: BookAIcon },
     { id: 5, name: "Leave", path: "/admin/leave", icon: Users },
-    // { id: 6, name: "payroll", path: "/admin/payroll", icon: MdPayments },
     { id: 6, name: "Admins", path: "/admin/manageAdmins", icon: BookAIcon },
+    { id: 7, name: "Payroll", path: "/admin/payroll", icon: DollarSign },
+    { id: 8, name: "notification", path: "/admin/announcement", icon: Bell }
+
   ];
 
   return (
